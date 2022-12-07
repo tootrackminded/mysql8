@@ -1,6 +1,6 @@
 [mysqld]
-#set binlog purge policy to 3 days
-binlog_expire_logs_seconds=259200
+#set binlog purge policy to 2 days
+binlog_expire_logs_seconds=172800
 
 # Needed for compatibility with existing SQL clients / WordPress.
 default-authentication-plugin=mysql_native_password
